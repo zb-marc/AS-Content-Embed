@@ -1,0 +1,72 @@
+/* Wrapper für das gesamte Element */
+.as-embed-wrapper {
+    position: relative;
+    max-width: 18rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+/* Das Input-Feld, das den Code anzeigt */
+.as-embed-input {
+    width: 100%;
+    padding: 6px 40px 6px 8px; /* Rechts Platz für den Button lassen */
+    font-size: 13px;
+    line-height: 1.4;
+    color: #3c434a;
+    background-color: #f0f0f1;
+    border: 1px solid #8c8f94;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
+    box-sizing: border-box;
+}
+
+/* Style für den Screenreader-Only Label */
+.as-embed-label-sr {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* Der Kopieren-Button */
+.as-embed-button {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    width: 36px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    background-color: #f6f7f7;
+    border: none;
+    border-left: 1px solid #8c8f94;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #2271b1;
+}
+
+.as-embed-button:hover {
+    background-color: #eff6ff;
+}
+
+/* Die SVG-Icons im Button */
+.as-embed-button svg {
+    width: 16px;
+    height: 16px;
+}
+
+.as-embed-button .icon-success {
+    color: #00a32a;
+}
+/* Fügt einen Abstand zwischen den beiden Kopier-Blöcken hinzu */
+.as-embed-wrapper + .as-embed-wrapper {
+    margin-top: 8px;
+}

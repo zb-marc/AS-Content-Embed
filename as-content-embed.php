@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       AS Content Embed
- * Plugin URI:        https://akkusys.de
+ * Plugin URI:        https://mirschel.biz
  * Description:       Ermöglicht das Einbinden von WordPress-Seiten und Beiträgen via Script auf externen Seiten. Fügt einen Kopieren-Button in den Admin-Übersichten hinzu und stellt eine REST-API-Endpunkt für den Inhalt bereit.
  * Version:           1.3.1
  * Requires PHP:      7.4
